@@ -1,0 +1,40 @@
+{
+  "name": "use-effect-for-dummies",
+  "version": "1.0.0",
+  "description": "useEffect for toddlers",
+  "keywords": [
+    "react",
+    "useEffect",
+    "hook",
+    "typescript"
+  ],
+  "homepage": "https://github.com/PoppedBit/use-effect-for-dummies#readme",
+  "bugs": {
+    "url": "https://github.com/PoppedBit/use-effect-for-dummies/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoppedBit/use-effect-for-dummies.git"
+  },
+  "license": "MIT",
+  "author": "PoppedBit",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "react": "^19.2.0",
+    "typescript": "^5.5.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "module": "dist/index.js",
+  "dependencies": {
+    "react": ">=17.0.0"
+  }
+}
